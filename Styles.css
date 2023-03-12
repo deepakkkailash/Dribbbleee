@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    opacity: 0.5;
+}
+.grid_of_nav_bar{
+    position: absolute;
+    top:2vh;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 20% 10% 10% 10%;
+    grid-column-gap: 5px;
+}
+
+.grid_of_nav_bar>*{
+    padding-top:10px;
+}
+.Sign_up_button{
+    padding-top: 0px;
+}
+.dribble_logo{
+    width:50%
+}
+
+.item_of_nav_bar{
+    color:#6e6d7a
+}
+
+.item_of_nav_bar:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.search_here{
+    width:20px;
+}
+
+.Sign_up_here{
+    border-radius: 12px;
+    background-color: #ea4c89;
+    color:white;
+    size:10%;
+    padding:10px 5px;
+}
+
+.Sign_up_here:hover{
+    opacity: 0.5;
+}
+
+
+.Author{
+    position:absolute;
+    top:20vh;
+    left:20vw;
+    display: grid;
+    grid-template-columns: 20% 80% 10% 30%;
+    grid-column-gap:10px;
+}
+.pfp{
+    width:70%;
+    border-radius: 50%;
+}
+
+.Content_author{
+    display: grid;
+    grid-template-rows:auto auto;
+    grid-row-gap:10px;
+}
+
+.Title_of_website{
+    font-size:20px;
+    font-weight: bolder;
+}
+.Author_details > .Intro_to_author_content{
+    color:#3d3d4e;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.Hire_us_content{
+    color:#ea4c89;
+    text-decoration: solid;
+}
+
+.Hire_us_content:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+
+.my_save_button{
+    background-color: #f3f3f4;
+    color:#0d0c22;
+    border-radius: 12px;
+    padding:15px 15px;
+    text-decoration: solid;
+    border:none;
+}
+
+.my_save_button:hover{
+    background-color: #e7e7e9;
+}
+
+.my_like_button{
+    background-color: #ea4c89;
+    color:white;
+    border:none;
+    border-radius:12px;
+    padding:15px 15px;
+}
+
+.my_like_button:hover{
+    cursor:pointer;
+    opacity: 0.9;
+}
+
+.Main_image_container{
+    padding:none;
+    margin:none;
+    position: absolute;
+    top:40vh;
+    left:20vw;
+}
+.Main_image{
+    width: 80%;
+}
